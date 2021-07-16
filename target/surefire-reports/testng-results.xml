@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28317" started-at="2020-06-11T08:01:52Z" finished-at="2020-06-11T08:02:21Z">
+    <groups>
+    </groups>
+    <test name="Web Tests" duration-ms="28317" started-at="2020-06-11T08:01:52Z" finished-at="2020-06-11T08:02:21Z">
+      <class name="SanityTests.grafanaWeb">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="start" is-config="true" duration-ms="14109" started-at="2020-06-11T08:01:52Z" finished-at="2020-06-11T08:02:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="test_01_Login()[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="test_01_Login" duration-ms="3904" started-at="2020-06-11T08:02:06Z" description="Test_01 : Login to Grafana" finished-at="2020-06-11T08:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01_Login -->
+        <test-method status="PASS" signature="after_method()[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="after_method" is-config="true" duration-ms="667" started-at="2020-06-11T08:02:11Z" finished-at="2020-06-11T08:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_method -->
+        <test-method status="PASS" signature="test_02_verifyUsers()[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="test_02_verifyUsers" duration-ms="1121" started-at="2020-06-11T08:02:11Z" description="Test_02 : Verify Default Users" finished-at="2020-06-11T08:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02_verifyUsers -->
+        <test-method status="PASS" signature="after_method()[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="after_method" is-config="true" duration-ms="599" started-at="2020-06-11T08:02:12Z" finished-at="2020-06-11T08:02:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_method -->
+        <test-method status="PASS" signature="test_03_add_and_verify_newUser()[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="test_03_add_and_verify_newUser" duration-ms="2653" started-at="2020-06-11T08:02:13Z" description="Test_03 : Add and Verify New Users" finished-at="2020-06-11T08:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03_add_and_verify_newUser -->
+        <test-method status="PASS" signature="after_method()[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="after_method" is-config="true" duration-ms="517" started-at="2020-06-11T08:02:16Z" finished-at="2020-06-11T08:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_method -->
+        <test-method status="PASS" signature="test_04_delete_User()[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="test_04_delete_User" duration-ms="1470" started-at="2020-06-11T08:02:16Z" description="Test_04 : Delete Last User" finished-at="2020-06-11T08:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_04_delete_User -->
+        <test-method status="PASS" signature="after_method()[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="after_method" is-config="true" duration-ms="428" started-at="2020-06-11T08:02:18Z" finished-at="2020-06-11T08:02:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_method -->
+        <test-method status="PASS" signature="test_05_verify_grafana_icon()[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="test_05_verify_grafana_icon" duration-ms="1085" started-at="2020-06-11T08:02:18Z" description="Test_05 : Verify Avatar" finished-at="2020-06-11T08:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05_verify_grafana_icon -->
+        <test-method status="PASS" signature="after_method()[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="after_method" is-config="true" duration-ms="430" started-at="2020-06-11T08:02:19Z" finished-at="2020-06-11T08:02:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_method -->
+        <test-method status="PASS" signature="close()[pri:0, instance:SanityTests.grafanaWeb@423e4cbb]" name="close" is-config="true" duration-ms="966" started-at="2020-06-11T08:02:20Z" finished-at="2020-06-11T08:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- SanityTests.grafanaWeb -->
+    </test> <!-- Web Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

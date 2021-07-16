@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Web Tests(failed)">
+    <parameter name="Platform" value="web"/>
+    <classes>
+      <class name="SanityTests.grafanaWeb">
+        <methods>
+          <include name="test_05_verify_grafana_icon"/>
+          <include name="test_04_delete_User"/>
+          <include name="after_method"/>
+          <include name="close"/>
+          <include name="start"/>
+          <include name="test_03_add_and_verify_newUser"/>
+          <include name="test_02_verifyUsers"/>
+        </methods>
+      </class> <!-- SanityTests.grafanaWeb -->
+    </classes>
+  </test> <!-- Web Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
